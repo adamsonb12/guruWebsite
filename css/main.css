@@ -53,14 +53,11 @@ body {
 
 /* Section CSS */
 
-.section {
+.column-with-content {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  height: 150px;
   text-align: center;
-  padding-top: 65px;
-  /* padding-bottom: 120px; */
+  padding: 65px 50px 65px 50px;
 }
 
 .section-header {
@@ -70,20 +67,14 @@ body {
 
 .section-info {
   font-size: 1.3em;
-  width: 50%;
 }
 
 .divider {
-  max-width: 170px;
-  /* margin: 25px auto 80px; */
-  margin-top: 60px;
-  padding: 0;
-  text-align: center;
-  border: none;
-  border-top: solid 2px;
-  color: #41CFE7;
+  border-bottom-color: #41CFE7;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
 }
 
 #section4 {
-  padding-bottom: 180px;
+  padding-bottom: 100px;
 }
